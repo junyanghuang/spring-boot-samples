@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>Insert title here</title>
+</head>
+<body>
+	<table border="1" width="200px">
+		<tr>
+			<td>用户id</td>
+			<td th:text="${user.id}"></td>
+		</tr>
+		<tr>
+			<td>用户名</td>
+			<td th:text="${user.name}"></td>
+		</tr>
+		<tr>
+			<td>年龄</td>
+			<td th:text="${user.age}"></td>
+		</tr>
+		<tr>
+			<td>地址</td>
+			<td th:text="${user.address}"></td>
+		</tr>
+	</table>
+</body>
+</html>
